@@ -39,6 +39,8 @@ import FirebaseMessaging
 class AppController {
   static let shared = AppController()
 
+  private init() { }
+
   var window: UIWindow?
   var navigation: UITabBarController = Navigation()
 
